@@ -8,9 +8,11 @@ You can also capture and download image as a PNG file. Furthermore, you can deco
 See [this article](https://qiita.com/tetunori_lego/items/4d0da075224abbaa4389) in detail. You can try [here](https://tetunori.github.io/HTML5WebcamTester/).
 
 # Usage
-1. 111
-2. 2222.
-3. 3333
+1. This tool starts generating automatically.
+2. You can adjust some settings.
+ - Reflesh rate ( 0.2 Hz - 10 Hz)
+ - Min/Max version ( Version 1 - Version 40. Size of the QR code.)
+ - Error correcting level. (L/M/Q/H)
 
 # Licence
 This software is released under the MIT License, see LICENSE.
