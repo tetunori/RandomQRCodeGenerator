@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Random QR Code Generator</title>
+
+        <!-- Webapp settings -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favion -->
+        <link rel="icon" href="./images/favicon.ico">
+
+        <!-- QR generate -->
+        <script src="https://cozmo.github.io/jsQR/jsQR.js"></script>
+
+        <!-- Stylesheet -->
+        <link href="https://cdn.muicss.com/mui-0.10.0/css/mui.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.muicss.com/mui-0.10.0/js/mui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+    </head>
+
+    <body>        
+        <!-- Title -->
+        <div id="titleText" class="titleText"> 
+            Random QR Code Generator
+        </div>
+
+        <!-- Description -->
+        <div id="descriptionText" class="descriptionText"> 
+            HTML5でWebcamを扱うテスト。キャプチャしてPNGファイルとしてダウンロードできるよ。<br>
+            HTML5 Webcam function tester. You can also capture and download image as a PNG file.
+        </div>
+
+        <!-- Contents -->
+        <table><tr>
+            <!-- Left region: QR Code Container -->
+            <td>
+                <!-- QR code -->
+                <div id="QRCodeContainer">
+                </div>
+            </td>
+
+            <!-- Right region: Operation Region -->
+            <td>
+                <div id="operation" class="operation"> 
+                    <div class="operationTitleTextTop"> 
+                        1. ***.
+                    </div>
+                    <div class="operationContent"> 
+                    </div>
+
+                    <div class="operationTitleText"> 
+                        2. 2222
+                    </div>
+                    <div class="operationContent"> 
+                    </div>
+
+                    <div class="operationTitleText"> 
+                        Appendix.
+                    </div>
+                    <div class="operationContent"> 
+                        <button class="mui-btn mui-btn--small mui-btn--raised" id="btShowReadMe">Show "ReadMe"
+                            <i class="fas fa-external-link-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </td>
+        </tr></table>
+        
+        <!-- Copywrite -->
+        <div id="copyWriteText"> 
+            <a href="https://github.com/tetunori/RandomQRCodeGenerator" target="_blank">Hosted on GitHub</a>. 
+            Version 1.0.0. Copyright (c) 2020 Tetsunori NAKAYAMA. MIT License.
+            <br>
+            QR Code is registered trademarks of DENSO WAVE INCORPORATED in Japan and in other countries.
+        </div>  
+
+        <!-- Script -->
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
