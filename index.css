@@ -16,7 +16,14 @@ td{
 
 #QRCodeContainer {
   border: 5px solid;
-  border-color: black;
+  border-color: darkgrey;
+  background-color: white;
+  width: 544px;
+  height: 544px;
+}
+
+#QRCode {
+  position: relative;
 }
 
 #titleText {
