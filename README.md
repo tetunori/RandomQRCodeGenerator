@@ -19,10 +19,10 @@ This software is released under the MIT License, see LICENSE.
 Tetsunori NAKAYAMA.
 
 # References
-QR code generation
+QR code generation  
 https://qiita.com/dojyorin/items/78c22be5411ad68cdff9#writer
 
-node-qrcode @oldair
+node-qrcode @oldair  
 https://github.com/soldair/node-qrcode
 
 Icon  
