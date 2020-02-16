@@ -5,7 +5,7 @@ Version 1.0.0
 # Description
 Random QR Code Generator.   
 You can also capture and download image as a PNG file. Furthermore, you can decode QR codes, now.  
-See [this article](https://qiita.com/tetunori_lego/items/4d0da075224abbaa4389) in detail. You can try [here](https://tetunori.github.io/HTML5WebcamTester/).
+See [this article](https://qiita.com/tetunori_lego/items/4d0da075224abbaa4389) in detail. You can try [here](https://tetunori.github.io/RandomQRCodeGenerator/).
 
 # Usage
 1. This tool starts generating automatically.
